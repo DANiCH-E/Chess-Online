@@ -1,0 +1,99 @@
+.button_text {
+    width: 54px;
+    height: 26px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 173% */
+
+    letter-spacing: 0.46px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button_nazad {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: 26px;
+    top: 41px;
+
+    background: #F79E02;
+
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 42px;
+}
+.rules2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 128px;
+
+    background: url(фон2_qrs2z.hCASs.png);
+
+}
+
+.text_title {
+
+    position: absolute;
+    left: 750px;
+    top: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+display: flex;
+
+color: #FFFFFF;
+    margin-left: auto;
+
+}
+.rules__block1 {
+    position: absolute;
+    width: 1700px;
+    height: 800px;
+    left: 70px;
+    top: 150px;
+
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(60px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+}
+
+.rules__block2 {
+    position: absolute;
+    width: 644.49px;
+    height: 648.95px;
+    left: 1000px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+

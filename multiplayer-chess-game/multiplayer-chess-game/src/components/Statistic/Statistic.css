@@ -1,0 +1,167 @@
+.fon1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 128px;
+
+    background: url(фон2_qrs2z.hCASs.png);
+}
+.tabl_stat11 {
+
+
+    padding: 20px 150px;
+    width: 355px;
+
+
+    box-sizing: border-box;
+    height: 72px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+
+    color: #000000;
+    box-sizing: border-box;
+
+
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+.stat_gr1{
+    width: 708px;
+    padding: 20px 15px;
+
+
+    border-collapse: collapse;
+    background: #F79E02;
+    border: 1px solid #F79E02;
+    height: 67px;
+    word-spacing: 230px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #545454;
+
+}
+.button_text {
+    width: 54px;
+    height: 26px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 173% */
+
+    letter-spacing: 0.46px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button_nazad {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: 26px;
+    top: 41px;
+
+    background: #F79E02;
+
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 42px;
+}
+
+.stat__title {
+    position: absolute;
+    width: 591px;
+    height: 153px;
+    left: 455px;
+    top: 41px;
+
+}
+
+.stat_title {
+    position: absolute;
+    width: 264px;
+    height: 153px;
+    left: 405px;
+    top: 41px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tabl_stat {
+    position: absolute;
+
+    left: 646px;
+    top: 263px;
+
+}
+/* .tabl_stat1 {
+position: absolute;
+width: 708px;
+height: 67px;
+left: 646px;
+top: 263px;
+} */
+/* .stat_gr1 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 355px;
+height: 67px;
+left: 646px;
+top: 263px;
+
+background: #F79E02;
+border: 1px solid #F79E02;
+} */

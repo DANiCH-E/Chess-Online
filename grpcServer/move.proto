@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+service send_move{
+  rpc getMoves(move) returns (response);
+}
+
+message move {
+  int64 PlayerID = 2;
+  int64 GameID = 3;
+  string FigureKEY = 4;
+  repeated int32 Cur_pos = 5;
+}
+
+message response{
+  string response = 1;
+}

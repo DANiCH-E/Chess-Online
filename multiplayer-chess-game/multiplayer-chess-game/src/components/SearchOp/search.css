@@ -1,0 +1,51 @@
+/* .search {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+} */
+
+/* .text {
+    position: absolute;
+width: 766px;
+height: 126px;
+left: 337px;
+top: 449px;
+
+font-family: 'Inter';
+font-style: normal;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: black;
+} */
+
+.search.text {
+    position: absolute;
+    width: 100%;
+    height: 890px;
+    left: 0px;
+    top: 128px;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.text1 {
+    position: absolute;
+    width: 324px;
+    height: 126px;
+    left: 838px;
+    top: 382px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #545454;
+
+}

@@ -1,0 +1,148 @@
+.glavnaya {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 189px;
+    top: 49.5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+
+
+.logotip {
+    position: absolute;
+    width: 141px;
+    height: 84px;
+    left: 18px;
+    top: 22px;
+
+    background: url(logotip1.png);
+}
+
+.logotip11 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 185px;
+    top: 44px;
+
+    background: url(123.png);
+}
+
+.pravila {
+    position: absolute;
+    width: 173px;
+    height: 30px;
+    left: 350px;
+    top: 49px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #545454;
+
+}
+
+.stat {
+    position: absolute;
+    width: 173px;
+    height: 30px;
+    left: 592px;
+    top: 49px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #545454;
+
+}
+
+.logo {
+
+    position: absolute;
+    width: 747px;
+    height: 84px;
+    left: 5px;
+    top: 5px;
+}
+
+.header {
+    position: relative;
+    height: 128px;
+
+    background: #E9E9E9;
+
+
+}
+
+.nav {
+    position:relative;
+
+
+    padding-left: 25px;
+    top: 49.5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header__auth {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    right: 68px;
+    top: 41px;
+
+    background: #F79E02;
+    color: white;
+    /* action/disabledBackground
+
+    Reflects the action.disabledBackground variable from the theme object
+    */
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 42px;
+}
+
+.header__reg {
+    position: absolute;
+
+
+    right: 188px;
+    top: 49.5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #2196F3;
+}
